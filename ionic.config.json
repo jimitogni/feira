@@ -1,0 +1,7 @@
+{
+  "name": "appleo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

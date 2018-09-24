@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Sobre
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <h1>Trabalhos: </h1>
+<button ion-button full (click)="listarTrabalhos()"> Listar trabalhos</button>
+
+<div class="box" *ngFor="let item of titulo; let i = index">
+
+  <div>
+    <p><span>Titulo: </span> <span innerHTML = {{titulo[i]}}></span> </p>
+    <p><span>Sala: </span> <span innerHTML = {{sala[i]}}></span> </p>
+  </div>
+
+</div>
+
+
+</ion-content>
